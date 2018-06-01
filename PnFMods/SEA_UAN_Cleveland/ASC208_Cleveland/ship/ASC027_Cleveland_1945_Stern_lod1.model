@@ -1,0 +1,8 @@
+<ASC027_Cleveland_1945_Stern_lod1.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/ship/ASC027_Cleveland_1945_Stern_lod2	</parent>
+	<extent>	28.0000	</extent>
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/ship/ASC027_Cleveland_1945_Stern_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASC027_Cleveland_1945_Stern_lod1.model>

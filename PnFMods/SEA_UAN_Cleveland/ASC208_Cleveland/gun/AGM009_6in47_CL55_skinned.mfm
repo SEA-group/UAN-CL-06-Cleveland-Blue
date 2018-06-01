@@ -1,0 +1,20 @@
+<AGM009_6in47_CL55_skinned.mfm>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_skinned_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	2.200000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_a.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_n.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_mg.dds	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/default_ao.dds	</Texture>
+	</property>
+</AGM009_6in47_CL55_skinned.mfm>
