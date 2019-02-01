@@ -1,5 +1,5 @@
 <AAS010_Curtiss_SC1.mfm>
-	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
+	<fx>	shaders/std_effects/PBS.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<materialKind>	0	</materialKind>
 	<property>	metallicGlossMap
