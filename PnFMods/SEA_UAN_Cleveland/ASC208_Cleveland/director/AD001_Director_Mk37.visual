@@ -47,7 +47,7 @@
 			<primitive>	AD001_Director_Mk37Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<identifier>	SHIPMAT_PBS_DirectorX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
 				</material>
 			</primitiveGroup>
