@@ -7,7 +7,7 @@
 		<max>	0.260202 0.208520 0.485252	</max>
 	</visibilityBox>
 	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_dead_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGM009_6in47_CL55_dead_lod1	</parent>
 	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_dead	</nodefullVisual>
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </AGM009_6in47_CL55_dead.model>

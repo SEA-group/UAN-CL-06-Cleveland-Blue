@@ -11,7 +11,7 @@
 		<max>	0.097465 0.193875 0.097465	</max>
 	</visibilityBox>
 	<extent>	2.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/radar/ARF012_Radar_SM_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/radar/lods/ARF012_Radar_SM_lod1	</parent>
 	<animation>
 		<name>	ARF012_Radar_SM	</name>
 		<frameRate>	30.000000	</frameRate>

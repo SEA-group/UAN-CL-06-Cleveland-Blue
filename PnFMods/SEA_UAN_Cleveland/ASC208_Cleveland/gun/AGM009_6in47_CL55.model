@@ -1,6 +1,6 @@
 <AGM009_6in47_CL55.model>
 	<extent>	5.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGM009_6in47_CL55_lod1	</parent>
 	<materialNames />
 	<visibilityBox>
 		<min>	-0.254512 -0.000000 -0.384221	</min>

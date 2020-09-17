@@ -1,7 +1,7 @@
 <AGS010_5in38_Mk32_Mod12_dead.model>
 	<castsShadow>	true	</castsShadow>
 	<extent>	4.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGS010_5in38_Mk32_Mod12_dead_lod1	</parent>
 	<materialNames />
 	<visibilityBox>
 		<min>	-0.172559 -0.000274 -0.206922	</min>
