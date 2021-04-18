@@ -116,7 +116,7 @@
 			<primitive>	hull_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/aircraft/AAS010_Curtiss_SC1_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

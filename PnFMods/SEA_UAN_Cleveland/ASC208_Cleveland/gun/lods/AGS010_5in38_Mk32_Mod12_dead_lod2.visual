@@ -29,7 +29,7 @@
 			<primitive>	AGS010_5in38_Mk32_Mod12_dead_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_GunDeadX	</identifier>
+					<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>

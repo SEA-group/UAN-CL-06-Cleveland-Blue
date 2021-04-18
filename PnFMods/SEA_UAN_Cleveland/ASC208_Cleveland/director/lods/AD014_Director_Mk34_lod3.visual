@@ -65,7 +65,7 @@
 			<primitive>	AD014_Director_Mk34_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_DirectorX	</identifier>
+					<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD014_Director_Mk34.mfm	</mfm>
 				</material>
 			</primitiveGroup>
