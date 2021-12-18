@@ -331,75 +331,21 @@
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_ATC1986	</identifier>
+				<identifier>	MP_AM004_Fairlead_2	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 1.161626 -0.332349 1.000000	</row3>
+					<row0>	0.0354 -0.0160 0.9992 0.0000	</row0>
+					<row1>	-0.0035 0.9999 0.0162 0.0000	</row1>
+					<row2>	-0.9994 -0.0041 0.0353 0.0000	</row2>
+					<row3>	0.6144 0.3963 -2.1360 1.0000	</row3>
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_ATC1984	</identifier>
+				<identifier>	MP_AM004_Fairlead_2_INDEX_1	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.000011 0.396256 -2.135974 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_CTC1929	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.011897 0.471901 -1.434512 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_CTC1930	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.037395 0.529107 -1.140454 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM132_Flag_Box	</identifier>
-				<transform>
-					<row0>	-0.800000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.500000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 -0.800000 0.000000	</row2>
-					<row3>	0.000000 1.186646 -0.784573 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM085_TBS_Antenna	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.246984 1.790964 -0.753710 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM008_Reels_3	</identifier>
-				<transform>
-					<row0>	0.000000 0.000000 0.600000 0.000000	</row0>
-					<row1>	-0.600000 0.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 -0.600000 0.000000 0.000000	</row2>
-					<row3>	-0.356856 0.465060 -1.315870 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_ATC1988	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 2.016421 -0.680538 1.000000	</row3>
+					<row0>	-0.0137 -0.0160 0.9998 0.0000	</row0>
+					<row1>	-0.0043 0.9999 0.0160 0.0000	</row1>
+					<row2>	-0.9999 -0.0041 -0.0138 0.0000	</row2>
+					<row3>	-0.6144 0.3963 -2.1360 1.0000	</row3>
 				</transform>
 			</node>
 			<node>
@@ -412,30 +358,12 @@
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_ATC1989	</identifier>
+				<identifier>	MP_AM058_Boat_4	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.000004 1.026645 -0.895517 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_ATC1978	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000001 0.548382 -1.759691 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_CTC1928	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.000008 0.448627 -0.355920 1.000000	</row3>
+					<row3>	0.021724 0.680229 -0.191173 1.000000	</row3>
 				</transform>
 			</node>
 			<node>
@@ -448,30 +376,57 @@
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_AM058_Boat_4	</identifier>
+				<identifier>	MP_AM085_TBS_Antenna	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.021724 0.680229 -0.191173 1.000000	</row3>
+					<row3>	0.246984 1.790964 -0.753710 1.000000	</row3>
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_ATC1990	</identifier>
+				<identifier>	MP_AM132_Flag_Box	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000003 1.790980 -0.753699 1.000000	</row3>
+					<row0>	-0.800000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.500000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -0.800000 0.000000	</row2>
+					<row3>	0.000000 1.186646 -0.784573 1.000000	</row3>
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_ATC1979	</identifier>
+				<identifier>	MP_AM682_36in_Searchlight	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.008714 0.551099 -1.761451 1.000000	</row3>
+					<row0>	0.0000 0.0000 -0.9000 0.0000	</row0>
+					<row1>	0.0000 0.9000 0.0000 0.0000	</row1>
+					<row2>	0.9000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.1718 1.1616 -0.3323 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_AM682_36in_Searchlight_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 0.9000 0.0000	</row0>
+					<row1>	0.0000 0.9000 0.0000 0.0000	</row1>
+					<row2>	-0.9000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.1718 1.1616 -0.3323 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM009_Life_Buoy_2	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	0.3024 0.4644 -0.3726 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_CM009_Life_Buoy_2_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+					<row3>	-0.3024 0.4328 -0.3393 1.0000	</row3>
 				</transform>
 			</node>
 			<node>
