@@ -1,13 +1,6 @@
 <AD001_Director_Mk37.model>
-	<castsShadow>	false	</castsShadow>
-	<materialNames />
-	<extent>	3.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/lods/AD001_Director_Mk37_lod1	</parent>
-	<visibilityBox>
-		<min>	-0.168469 0.000000 -0.146639	</min>
-		<max>	0.168469 0.168776 0.150858	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37	</nodefullVisual>
+	<visual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </AD001_Director_Mk37.model>

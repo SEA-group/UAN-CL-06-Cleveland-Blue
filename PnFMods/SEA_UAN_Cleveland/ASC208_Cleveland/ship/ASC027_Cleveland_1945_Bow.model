@@ -1,8 +1,6 @@
 <ASC027_Cleveland_1945_Bow.model>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/ship/lods/ASC027_Cleveland_1945_Bow_lod1	</parent>
-	<extent>	10.0000	</extent>
-	<castsShadow>	true	</castsShadow>
-	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/ship/ASC027_Cleveland_1945_Bow	</nodefullVisual>
+	<visual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/ship/ASC027_Cleveland_1945_Bow.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </ASC027_Cleveland_1945_Bow.model>

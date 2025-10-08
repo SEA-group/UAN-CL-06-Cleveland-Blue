@@ -1,47 +1,115 @@
 <AGA003_20mm_Oerlikon_MK4.visual>
+	<skeleton>
+		<node>
+			<identifier>	Scene Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Oerlikon	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 0.866025 -0.500000 0.000000	</row1>
+						<row2>	0.000000 0.500000 0.866025 0.000000	</row2>
+						<row3>	0.000000 0.133624 0.078448 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.046690 -0.000000 -0.076318	</min>
 		<max>	0.046690 0.134536 0.079359	</max>
 	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
-		<node>
-			<identifier>	Oerlikon	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-			<node>
-				<identifier>	HP_gunFire1	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 0.866025 -0.500000 0.000000	</row1>
-					<row2>	0.000000 0.500000 0.866025 0.000000	</row2>
-					<row3>	0.000000 0.133624 0.078448 1.000000	</row3>
-				</transform>
-			</node>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Oerlikon	</node>
-		<geometry>
-			<vertices>	OerlikonShape.vertices	</vertices>
-			<primitive>	OerlikonShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_GunX	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGA003_20mm_Oerlikon_MK4.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	<renderSets>
+		<renderSet>
+			<name>	OerlikonShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Oerlikon	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGA003_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Oerlikon_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Oerlikon	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGA003_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Oerlikon_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Oerlikon	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGA003_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Oerlikon_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Oerlikon	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGA003_20mm_Oerlikon_MK4.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	OerlikonShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	6.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Oerlikon_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Oerlikon_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Oerlikon_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AGA003_20mm_Oerlikon_MK4.visual>

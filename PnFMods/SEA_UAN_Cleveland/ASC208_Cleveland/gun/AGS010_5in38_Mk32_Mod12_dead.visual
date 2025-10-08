@@ -1,38 +1,106 @@
 <AGS010_5in38_Mk32_Mod12_dead.visual>
+	<skeleton>
+		<node>
+			<identifier>	Scene Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	AGS010_5in38_Mk32_Mod12_dead	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.172559 -0.000274 -0.207550	</min>
 		<max>	0.172559 0.233310 0.365955	</max>
 	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
-		<node>
-			<identifier>	AGS010_5in38_Mk32_Mod12_dead	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	AGS010_5in38_Mk32_Mod12_dead	</node>
-		<geometry>
-			<vertices>	AGS010_5in38_Mk32_Mod12_deadShape.vertices	</vertices>
-			<primitive>	AGS010_5in38_Mk32_Mod12_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	<renderSets>
+		<renderSet>
+			<name>	AGS010_5in38_Mk32_Mod12_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AGS010_5in38_Mk32_Mod12_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AGS010_5in38_Mk32_Mod12_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AGS010_5in38_Mk32_Mod12_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AGS010_5in38_Mk32_Mod12_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AGS010_5in38_Mk32_Mod12_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AGS010_5in38_Mk32_Mod12_dead_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AGS010_5in38_Mk32_Mod12_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGS010_5in38_Mk32_Mod12_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AGS010_5in38_Mk32_Mod12_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AGS010_5in38_Mk32_Mod12_dead_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	AGS010_5in38_Mk32_Mod12_dead_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	80.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AGS010_5in38_Mk32_Mod12_dead_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AGS010_5in38_Mk32_Mod12_dead.visual>

@@ -1,13 +1,6 @@
 <AGM009_6in47_CL55_dead.model>
-	<extent>	5.0000	</extent>
-	<materialNames />
-	<castsShadow>	true	</castsShadow>
-	<visibilityBox>
-		<min>	-0.228431 0.000000 -0.405347	</min>
-		<max>	0.260202 0.208520 0.485252	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGM009_6in47_CL55_dead_lod1	</parent>
-	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_dead	</nodefullVisual>
+	<visual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/AGM009_6in47_CL55_dead.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </AGM009_6in47_CL55_dead.model>

@@ -1,56 +1,124 @@
 <AD001_Director_Mk37.visual>
+	<skeleton>
+		<node>
+			<identifier>	Scene Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	AD001_Director_Mk37	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	MP_AM658_Radar_Mk4	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.138565 -0.061226 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_AM632_Radar_Mk22	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.076658 0.268523 0.024404 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.159139 -0.000000 -0.130296	</min>
 		<max>	0.159139 0.330916 0.130701	</max>
 	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
-		<node>
-			<identifier>	AD001_Director_Mk37	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-			<node>
-				<identifier>	MP_AM658_Radar_Mk4	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.138565 -0.061226 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM632_Radar_Mk22	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.076658 0.268523 0.024404 1.000000	</row3>
-				</transform>
-			</node>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	AD001_Director_Mk37	</node>
-		<geometry>
-			<vertices>	AD001_Director_Mk37Shape.vertices	</vertices>
-			<primitive>	AD001_Director_Mk37Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	<renderSets>
+		<renderSet>
+			<name>	AD001_Director_Mk37Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD001_Director_Mk37	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD001_Director_Mk37_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD001_Director_Mk37	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD001_Director_Mk37_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD001_Director_Mk37	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	AD001_Director_Mk37_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	AD001_Director_Mk37	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DirectorX	</identifier>
+				<mfm>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/director/AD001_Director_Mk37.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AD001_Director_Mk37Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AD001_Director_Mk37_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AD001_Director_Mk37_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	70.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	AD001_Director_Mk37_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </AD001_Director_Mk37.visual>

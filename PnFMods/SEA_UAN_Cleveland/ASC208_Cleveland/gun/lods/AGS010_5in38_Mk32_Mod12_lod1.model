@@ -1,8 +1,0 @@
-<AGS010_5in38_Mk32_Mod12_lod1.model>
-	<castsShadow>	true	</castsShadow>
-	<extent>	8.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGS010_5in38_Mk32_Mod12_lod2	</parent>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/SEA_UAN_Cleveland/ASC208_Cleveland/gun/lods/AGS010_5in38_Mk32_Mod12_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</AGS010_5in38_Mk32_Mod12_lod1.model>
